@@ -1,0 +1,60 @@
+body {
+  text-decoration: none;
+}
+
+span {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  position: relative;
+  bottom: -5px;
+  width: 300px;
+}
+
+ul {
+  padding: 5px;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 10px;
+  font-size: 20px;
+  position: relative;
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.create-item {
+  margin-top: 10px;
+}
+
+#input-item {
+  width: 300px;
+}
+
+.add-btn {
+  margin: 10px;
+}
+
+.delete-btn {
+  border-radius: 6px;
+  background-color: #ff7f76;
+  color: black;
+  font-size: 14px;
+  padding: 4px 8px;
+}
+
+.checked {
+  color: #ccc;
+  text-decoration: line-through;
+  font-style: italic;
+}
+
+input[type=checkbox] {
+  margin-right: 10px;
+  transform: scale(2);
+}
